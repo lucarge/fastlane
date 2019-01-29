@@ -3,7 +3,7 @@
         "locale": "cmn-Hans",
         "name": "Simplified Chinese",
         "game-center": true,
-        "itc_locale": "zh-Hans"        
+        "itc_locale": "zh-Hans"
     },
     {
         "locale": "cmn-Hant",
@@ -15,18 +15,14 @@
         "locale": "da-DK",
         "name": "Danish",
         "game-center": true,
-        "alternatives": [
-            "da"
-        ],
+        "alternatives": ["da"],
         "itc_locale": "da"
     },
     {
         "locale": "nl-NL",
         "name": "Dutch",
         "game-center": true,
-        "alternatives": [
-            "nl"
-        ]
+        "alternatives": ["nl"]
     },
     {
         "locale": "en-AU",
@@ -67,9 +63,7 @@
         "locale": "fi-FI",
         "name": "Finnish",
         "game-center": true,
-        "alternatives": [
-            "fi"
-        ],
+        "alternatives": ["fi"],
         "itc_locale": "fin"
     },
     {
@@ -84,81 +78,77 @@
     },
     {
         "locale": "fr-FR",
-        "name": "French",
+        "name": "French (France)",
         "game-center": true,
-        "alternatives": [
-            "fr"
-        ]
+        "alternatives": ["fr"]
+    },
+    {
+        "locale": "de-AT",
+        "name": "German (Austria)",
+        "game-center": true
+    },
+    {
+        "locale": "de-CH",
+        "name": "German (Switzerland)",
+        "game-center": true
     },
     {
         "locale": "de-DE",
-        "name": "German",
+        "name": "German (Germany)",
         "game-center": true,
-        "alternatives": [
-            "de"
-        ]
+        "alternatives": ["de"]
     },
     {
         "locale": "el-GR",
         "name": "Greek",
         "game-center": true,
-        "alternatives": [
-            "el"
-        ],
+        "alternatives": ["el"],
         "itc_locale": "el"
     },
     {
         "locale": "id-ID",
         "name": "Indonesian",
         "game-center": true,
-        "alternatives": [
-            "id"
-        ],
+        "alternatives": ["id"],
         "itc_locale": "id"
     },
     {
+        "locale": "it-CH",
+        "name": "Italian (Switzerland)",
+        "game-center": true
+    },
+    {
         "locale": "it-IT",
-        "name": "Italian",
+        "name": "Italian (Italy)",
         "game-center": true,
-        "alternatives": [
-            "it"
-        ],
-        "itc_locale": "it"
+        "alternatives": ["it"]
     },
     {
         "locale": "ja-JP",
         "name": "Japanese",
         "game-center": true,
-        "alternatives": [
-            "ja"
-        ],
+        "alternatives": ["ja"],
         "itc_locale": "ja"
     },
     {
         "locale": "ko-KR",
         "name": "Korean",
         "game-center": true,
-        "alternatives": [
-            "ko"
-        ],
+        "alternatives": ["ko"],
         "itc_locale": "ko"
     },
     {
         "locale": "ms-MY",
         "name": "Malay",
         "game-center": true,
-        "alternatives": [
-            "ms"
-        ],
+        "alternatives": ["ms"],
         "itc_locale": "ms"
     },
     {
         "locale": "no-NO",
         "name": "Norwegian",
         "game-center": true,
-        "alternatives": [
-            "no"
-        ],
+        "alternatives": ["no"],
         "itc_locale": "no"
     },
     {
@@ -170,17 +160,13 @@
         "locale": "pt-PT",
         "name": "Portuguese",
         "game-center": true,
-        "alternatives": [
-            "pt"
-        ]
+        "alternatives": ["pt"]
     },
     {
         "locale": "ru-RU",
         "name": "Russian",
         "game-center": true,
-        "alternatives": [
-            "ru"
-        ],
+        "alternatives": ["ru"],
         "itc_locale": "ru"
     },
     {
@@ -195,46 +181,36 @@
     },
     {
         "locale": "es-ES",
-        "name": "Spanish",
+        "name": "Spanish (Spain)",
         "game-center": true,
-        "alternatives": [
-            "es"
-        ]
+        "alternatives": ["es"]
     },
     {
         "locale": "sv-SE",
         "name": "Swedish",
         "game-center": true,
-        "alternatives": [
-            "sv"
-        ],
+        "alternatives": ["sv"],
         "itc_locale": "sv"
     },
     {
         "locale": "th-TH",
         "name": "Thai",
         "game-center": true,
-        "alternatives": [
-            "th"
-        ],
+        "alternatives": ["th"],
         "itc_locale": "th"
     },
     {
         "locale": "tr-TR",
         "name": "Turkish",
         "game-center": true,
-        "alternatives": [
-            "tr"
-        ],
+        "alternatives": ["tr"],
         "itc_locale": "tr"
     },
     {
         "locale": "vi-VI",
         "name": "Vietnamese",
         "game-center": true,
-        "alternatives": [
-            "vi"
-        ],
+        "alternatives": ["vi"],
         "itc_locale": "vi"
     }
 ]

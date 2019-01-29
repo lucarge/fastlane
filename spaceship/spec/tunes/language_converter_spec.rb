@@ -20,7 +20,7 @@ describe Spaceship::Tunes::LanguageConverter do
     end
 
     it "works with alternative values too" do
-      expect(klass.from_standard_to_itc('de')).to eq('German')
+      expect(klass.from_standard_to_itc('de')).to eq('German (Germany)')
     end
 
     it "returns nil when element can't be found" do
@@ -53,7 +53,7 @@ describe String do
   describe "#to_itc_locale" do
     # verify all available itc primary languages match the right locale (itc variation)
     it "redirects to the actual converter" do
-      expect("German".to_itc_locale).to eq("de-DE")
+      expect("German (Germany)".to_itc_locale).to eq("de-DE")
       expect("Traditional Chinese".to_itc_locale).to eq("zh-Hant")
       expect("Simplified Chinese".to_itc_locale).to eq("zh-Hans")
       expect("Danish".to_itc_locale).to eq("da")
@@ -62,11 +62,11 @@ describe String do
       expect("Canadian English".to_itc_locale).to eq("en-CA")
       expect("English".to_itc_locale).to eq("en-US")
       expect("Finnish".to_itc_locale).to eq("fin")
-      expect("French".to_itc_locale).to eq("fr-FR")
+      expect("French (France)".to_itc_locale).to eq("fr-FR")
       expect("Canadian French".to_itc_locale).to eq("fr-CA")
       expect("Greek".to_itc_locale).to eq("el")
       expect("Indonesian".to_itc_locale).to eq("id")
-      expect("Italian".to_itc_locale).to eq("it")
+      expect("Italian (Italy)".to_itc_locale).to eq("it-IT")
       expect("Japanese".to_itc_locale).to eq("ja")
       expect("Korean".to_itc_locale).to eq("ko")
       expect("Malay".to_itc_locale).to eq("ms")
@@ -77,7 +77,7 @@ describe String do
       expect("Russian".to_itc_locale).to eq("ru")
       expect("Swedish".to_itc_locale).to eq("sv")
       expect("Mexican Spanish".to_itc_locale).to eq("es-MX")
-      expect("Spanish".to_itc_locale).to eq("es-ES")
+      expect("Spanish (Spain)".to_itc_locale).to eq("es-ES")
       expect("Thai".to_itc_locale).to eq("th")
       expect("Turkish".to_itc_locale).to eq("tr")
       expect("Vietnamese".to_itc_locale).to eq("vi")
@@ -86,13 +86,13 @@ describe String do
 
   describe "#to_language_code" do
     it "redirects to the actual converter" do
-      expect("German".to_language_code).to eq("de-DE")
+      expect("German (Germany)".to_language_code).to eq("de-DE")
     end
   end
 
   describe "#to_full_language" do
     it "redirects to the actual converter" do
-      expect("de".to_full_language).to eq("German")
+      expect("de".to_full_language).to eq("German (Germany)")
     end
   end
 end
